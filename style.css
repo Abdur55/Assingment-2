@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+CU:wght@100..400&display=swap');
+
+
+   
+  
+/* Navbar-----start------ */
+ body {
+    background-color: rgba(0, 0, 0, 0.959);
+ }
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 100px;
+ 
+  
+}
+.nav-links {
+    display: flex;
+   
+}
+.nav-item {
+    list-style: none;
+    margin: 20px;
+    
+}
+.nav-link {
+    text-decoration: none;
+    color: white
+    
+
+}
+.span {
+    color: rgb(224, 40, 15);
+    font-size: 25px;
+}
+.span-bordar {
+    border: 1px solid red;
+    border-radius: 80px;
+   background-color: rgb(224, 40, 15);
+   padding: 10px;
+
+}
+/* Navbar-----end------ */
+
+/* banner------start------ */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    margin: 20px 100px
+    
+}
+
+.banner-content {
+    color: white;
+    
+   
+}
+
+.banner-header {
+    font-size: 74px;
+    
+}
+.banner-description {
+    font-size: 13px;
+}
+
+.linear {
+    font-family: "Playwrite CU", cursive;
+}
+.btn-primary {
+    background-color: rgb(207, 58, 35);
+    color: rgba(240, 248, 255, 0.747);
+    border: none;
+    border-radius: 43px;
+    padding: 5px;
+    width: 8rem;
+}
+.btn-botton {
+    background-color: rgb(12, 12, 12);
+    border: none;
+    border: 1px solid rgb(63, 60, 60);
+   border-radius: 42px;
+   padding: 5px;
+   width: 8rem;
+   color: rgba(255, 255, 255, 0.425);
+    
+}
+.text-center
+{
+    background-color: rgba(245, 245, 245, 0.116);
+    width: 105px;
+    height: 60px;
+    margin-bottom: 80px;
+}
+/* banner------end----- */
+
+/* skills-----start----- */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skill {
+    color: aliceblue;
+    text-align: center;
+    margin: 5rem;
+}
+.skill, h3 {
+    font-size: 35px;
+    color: aliceblue;
+}
+.skill, p {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 45px;
+    gap: 45px;
+}
+.skill-img {
+   border-radius: 100%;
+}
+.skill-title, h2 {
+    color: aliceblue;
+}
+.skill-title, h2, p {
+    font-size: 12px;
+} 
+/* skills-----end----- */
+
+/* section------start------ */
+
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(37, 41, 40);
+    width:970px;
+    height: 251px;
+    margin: 50px 110px;
+    border-radius: 10px;
+}
+.support {
+    padding-left: 70px;
+   
+}
+.support h3 {
+    font-size: 35px;
+}
+.support-img {
+    width:  270px;
+    height: 212px;
+    margin-top: 18px;
+    margin-right: 18px;
+    border-radius: 10px;
+}
+/* section------start------ */
+
+/* table contain start------start----- */
+
+.table-header {
+    color: aliceblue;
+    margin-left: 30%;
+}
+.header-title {
+    font-size: 35px;
+}
+
+
+/* table contain start------end----- */
