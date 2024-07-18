@@ -140,7 +140,7 @@
 .section {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(37, 41, 40);
+    background-color: rgba(37, 41, 40, 0.973);
     width:970px;
     height: 251px;
     margin: 50px 110px;
@@ -171,6 +171,14 @@
 .header-title {
     font-size: 35px;
 }
-
-
 /* table contain start------end----- */
+
+/* calcult-header-------start------- */
+
+.calcult-header {
+    width: 1575px;
+    height: 480px;
+    background-color: rgba(63, 65, 64, 0.705);
+    margin-top: 5%;
+}
+/* calcult-header------end----- */
